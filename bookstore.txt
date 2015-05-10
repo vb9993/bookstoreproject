@@ -1,0 +1,56 @@
+ONLINE BOOK STORE
+
+Entities are:--
+--customers
+
+--ISBN no.
+
+--Books
+
+--Genre
+
+--Transaction
+
+--Employee who will monitor and handle the order.
+
+Entity relationship --
+        _______________________ 
+Customer\-----Customer name   |
+         \-----phone          |                      _________________
+          \-----email address |                     |                 |
+	   \-----account id   |_____________________|    Order Book   |          
+            \-----home address|                     |_________________|
+            |_________________|                      /               \
+                              \                     /                 \
+                               \                   /                   \
+                                \                 /                     \
+                                 \               /                       \
+                                  \             /                         \
+                                 ________________                          \
+                                | -------------- |                          ____________
+                                |    Bookstore   |                         |            |
+                                | -------------- |_________________________|  Database  |
+                                |________________|                         |____________|
+
+
+Functions:--
+Functions for customers:
+--Create New  account 
+--User login
+--Update credentials(name,address,password)
+--Search Book(single book,all books ,books by name,title,genre) 
+--Transaction cart
+--Add books
+--Delete Books
+--Modify shopping cart
+--Give Order 
+--Trace your package
+
+Functions for employees:
+--Get all information about cost and quantity of books
+--Make a list of the orders made
+--Update status of customer
+--Generate new books
+
+                                                                           
+                                                                                                  
